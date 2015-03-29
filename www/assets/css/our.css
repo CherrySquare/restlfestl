@@ -8544,14 +8544,129 @@ nav h1 span {
   color: #5AB946;
 }
 
-/* line 29, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+/* line 28, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.mach-mit {
+  margin-bottom: 3em;
+}
+
+/* line 31, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.row-centered {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+/* line 35, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.col-centered {
+  display: inline-block;
+  float: none;
+  /* reset the text-align */
+  text-align: left;
+  /* inline-block space fix */
+  margin-right: -4px;
+}
+
+/* line 43, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.col-xs-small {
+  width: 120px;
+}
+
+/* line 47, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.bullets {
+  text-align: left;
+}
+
+/* line 52, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.container a:hover {
+  text-decoration: none;
+}
+/* line 55, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.container .facebook-box {
+  color: #f7f7f7;
+  background-color: #3b5998;
+  margin-bottom: 1em;
+}
+/* line 60, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.container .foodsharing-box {
+  background-color: #4A3520;
+  color: #ffffff;
+}
+/* line 63, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.container .foodsharing-box span {
+  color: #5AB946;
+}
+
+/* line 69, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.rotate {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 75, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
 body {
   up: 10px;
   background-color: #F8F6E1;
+  color: #4A3520;
 }
 
-/* line 34, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+/* line 81, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+h3 {
+  font-family: 'Alfa Slab One', cursive;
+}
+/* line 83, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+h3 a {
+  color: #4A3520;
+}
+/* line 86, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+h3 a:hover {
+  color: #5AB946;
+  text-decoration: none;
+}
+
+/* line 91, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+h2 {
+  font-family: 'Alfa Slab One', cursive;
+}
+/* line 93, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+h2 a {
+  color: #4A3520;
+}
+/* line 96, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+h2 a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 102, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+h4 {
+  font-family: 'Alfa Slab One', cursive;
+}
+/* line 104, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+h4 a {
+  color: #F1E7C9;
+}
+/* line 107, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+h4 a:hover {
+  color: #644F3A;
+  text-decoration: none;
+}
+
+/* line 113, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
 #map {
   height: 750px;
   width: 100%;
+}
+
+/* line 118, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.map-row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* line 121, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.map-row .col-sm-4 h3 {
+  margin-top: 3px;
+}
+/* line 124, /home/igalic/src/food-party/app/assets/stylesheets/application.css.scss */
+.map-row a {
+  margin-right: 15px;
 }
