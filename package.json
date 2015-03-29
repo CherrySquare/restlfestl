@@ -3,7 +3,6 @@
   "version": "3.0.6",
   "type": "app",
   "dependencies": {
-    "hoodie-plugin-appcache": "^1.0.2",
     "hoodie-plugin-appconfig": "^2.0.1",
     "hoodie-plugin-email": "^1.0.0",
     "hoodie-plugin-social": "^0.10.1",
@@ -24,8 +23,7 @@
       "hoodie-plugin-appconfig",
       "hoodie-plugin-email",
       "hoodie-plugin-users",
-      "hoodie-plugin-social",
-      "hoodie-plugin-appcache"
+      "hoodie-plugin-social"
     ]
   },
   "gitHead": "90265f3b94ff1b95d80856f9b40d02fd6315623a",
