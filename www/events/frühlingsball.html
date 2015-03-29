@@ -10,14 +10,13 @@
     <link rel="stylesheet" href="/assets/vendor/prism/prism.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/css/our.css">
-    <link href='//fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="container">
       <nav id="header" class="container-fluid">
         <h1> <a href='/'>All You <span>Can't Eat</span></a></h1>
       </nav>
-
       <div class="hoodie-accountbar">
 
         <div class="hoodie-account-signedout">
@@ -64,78 +63,59 @@
           </span>
         </div><!-- /.hoodie-account-error -->
       </div><!--/hoodieAccountBar -->
-    </div>
 
-    <div class="content">
-      <div id="main-container" class="container">
-        <p class="hoodie-account-signedout">
-        Gestalt und heiden pretzel, in frau meister. Floppern poppin footzerstompen,
-        verboten weiner spritz haben octoberfest heiden handercloppen. Poken poppin
-        der an, achtung in relaxern kaputt footzerstompen haus du frankfurter das.
-        Sparkin sauerkraut underbite lookinpeepers makin octoberfest. Underbite noodle
-        blitz oof bar bin spitzen auf pretzel thinken blitz biergarten. Ist blimp, hans
-        rubberneckin achtung glockenspiel blitz sauerkraut das footzerstompen
-        oompaloomp, blimp. Lookinpeepers oof noodle lookinpeepers underbite dummkopf
-        strudel spitzen buerger. Blitz glockenspiel dummkopf heiden yodel morgen,
-        hinder du, unter rubberneckin underbite, buerger footzerstompen.
-        </p>
+      <div class="content">
+        <a href="/profiles/aaron.html"><img class="img-rounded" src="/assets/foodPartyHouse-e68426138c79d371e92f1b4a165800f4.jpg" alt="Foodpartyhouse" />
 
+          <h3>Aaron Cruz's</a></h3> <h2>Frühlingsball <small><br>Samstag, 11 April 2015</small></h2> <a href="/static_pages/flogin" class="btn btn-success" role="button">Mach mit!</a> </h2>
+      <br/><br/>
+      <table border="0" style="width:100%">
+        <tr>
+          <td>
+            <img class="img-rounded" width="100" height="100" src="/assets/bandc-90655432cbc2059d13e76b5d7b692f62.jpg" alt="Bandc" />
+          </td>
+          <td>
+            <img class="img-rounded" width="100" height="100" src="/assets/Shelly-4460e155c28ccbdb7ca6ddd9e9af7d17.jpg" alt="Shelly" />
+          </td>
+          <td>
+            <h4> Shelly bringt:</h4>
+            Karfiol und Brokoli
+          </td>
+          <td>
+            THINGS SHE WILL DO :)
+          </td>
+        </tr>
 
-        <div class="row map-row">
-          <form class="form-horizontal">
-            <div class="form-group">
-              <div class="col-sm-4">
-                <input type="text" class="form-control" placeholder="PLZ">
-              </div>
-              <div class="col-sm-4">
-                <h3>Found 1 event near you:</h3>
-              </div>
-              <a href="/static_pages/host" class="btn btn-info col-sm-3 pull-right" role="button">I want to host!</a>
-            </div>
-          </form>
-        </div>
-        <div id="map" style="float: left;"></div>
+        <tr>
+          <td>
+            <img class="img-rounded" width="100" height="100" src="/assets/carrots-7b41c37a4231d34d7fd8581832226bae.jpg" alt="Carrots" />
+          </td>
+          <td><img class="img-rounded" width="100" height="100" src="/assets/Ramon-a91e81328af5624b75138840ce3fdd2d.jpg" alt="Ramon" />
+            <td>
+              <h4> Ramon bringt:</h4>
+              Eine Kiste Karotten
+            </td>
+            <td>
+              THINGS HE WILL DO :)
+            </td>
+        </tr>
 
-        <div id="footer">&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</div>
-
-        <!-- bring in the google maps library -->
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
-        <script type="text/javascript">
-//Google maps API initialisation
-var element = document.getElementById("map");
-
-var map = new google.maps.Map(element, {
-  center: new google.maps.LatLng(48.195262, 16.360496),
-  zoom: 19,
-  mapTypeId: "OSM",
-  mapTypeControl: false,
-  streetViewControl: false
-});
-
-var myLatlng = new google.maps.LatLng(48.195262, 16.360496);
-var marker = new google.maps.Marker({
-  position: myLatlng,
-  map: map,
-  title: 'Frühlingsball',
-  url: '/events/frühlingsball.html'
-});
-
-google.maps.event.addListener(marker, 'click', function() {
-  window.location.href = marker.url;
-});
-
-//Define OSM map type pointing at the OpenStreetMap tile server
-map.mapTypes.set("OSM", new google.maps.ImageMapType({
-  getTileUrl: function(coord, zoom) {
-    //return "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/" + zoom + "/" + coord.y + "/" + coord.x;
-    return "http://tile.openstreetmap.org/" + zoom + "/" + coord.x + "/" + coord.y + ".png";
-  },
-  tileSize: new google.maps.Size(256, 256),
-  name: "OpenStreetMap",
-  maxZoom: 18
-}));
-        </script>
+        <tr>
+          <td>
+            <img class="img-rounded" width="100" height="100" src="/assets/celery-a30d07e343b2729e0ef4cfa594b16368.jpg" alt="Celery" />
+          </td>
+          <td>
+            <img class="img-rounded" width="100" height="100" src="/assets/Igor-5e443ef48ddc3ee67779052884408d14.jpg" alt="Igor" />
+          </td>
+          <td>
+            <h4> Igor bringt:</h4>
+            2 Bund Sellerie
+          </td>
+          <td>
+            THINGS HE WILL DO :)
+          </td>
+      </table>
+      </div>
 
       <footer class="copy">
         <p>&hearts; hood.ie 2015</p>
